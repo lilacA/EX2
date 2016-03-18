@@ -10,16 +10,34 @@
     tools:context="com.example.lilaca01.ex2_mobile.MainActivity">
 
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:enabled="true"
+        android:editable="true"
+        android:elegantTextHeight="false"
+        android:focusable="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/border"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Enter stuff to do" />
+
     <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/listView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true" />
+        android:layout_below="@+id/editText" />
 
 
 </RelativeLayout>
